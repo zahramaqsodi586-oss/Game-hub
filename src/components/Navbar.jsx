@@ -1,6 +1,5 @@
 import { Gamepad2 } from "lucide-react";
 
-
 function Navbar() {
   return (
     <nav className="bg-gray-900 border-b border-gray-800 px-6 py-4 sticky top-0">

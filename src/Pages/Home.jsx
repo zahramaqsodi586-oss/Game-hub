@@ -1,7 +1,8 @@
-import Navbar from "../Components/Navbar";
+
 import GameCard from "../Components/GameCard";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import Navbar from '../components/Navbar.jsx'
+
 
 function Home() {
   const [search, setSearch] = useState("");
