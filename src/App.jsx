@@ -1,8 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import GamePage from "./pages/GamePage";
-import MemoryGame from "./Games/MemoryGame";
-import SnakeGame from "./Games/SnakeGame";
+import MemoryGame from "./games/MemoryGame";
+import SnakeGame from "./games/SnakeGame";
+
+
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
     </div>
   }
 />
+
+
     </Routes>
   );
 }
