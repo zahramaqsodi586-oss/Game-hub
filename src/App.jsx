@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 
 import MemoryGame from "./games/MemoryGame";
 import SnakeGame from "./games/SnakeGame";
+import TicTacToe from "./games/TicTacToe";
 
 
 
@@ -28,6 +29,16 @@ function App() {
       <SnakeGame />
     </div>
   }
+/>
+
+<Route 
+path="/games/tic-tac-toe"
+element={
+  <div className="min-h-screen bg-gray-950 text-white p-6">
+    <TicTacToe />
+  </div>
+}
+
 />
 
 
