@@ -1,5 +1,5 @@
 
-import GameCard from '../components/GameCard.jsx';
+import GameCard from "../components/GameCard.jsx";
 import { useState } from "react";
 import Navbar from '../components/Navbar.jsx'
 
