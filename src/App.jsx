@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home.jsx";
 
 import MemoryGame from "./games/MemoryGame";
 import SnakeGame from "./games/SnakeGame";
